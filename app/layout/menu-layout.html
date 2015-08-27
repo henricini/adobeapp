@@ -1,0 +1,38 @@
+﻿<ion-side-menus>
+    <!-- Center content -->
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-positive">
+            <ion-nav-back-button class="button-clear button-icon icon ion-ios-arrow-back">
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="mainContent">
+
+        </ion-nav-view>
+    </ion-side-menu-content>
+
+    <!-- Left menu -->
+    <ion-side-menu side="left">
+        <header class="bar bar-balanced">
+            <h1 class="title">Appeality</h1>
+        </header>
+        <ion-content class="has-header">
+            <!--Navigate to top level pages in each set-->
+            <ion-list>
+                <ion-item nav-clear menu-close ui-sref="app.capture-photo">Capture Photo</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-two-one">Maps</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-three-one">Page Three</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-four-one">Page Four</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-five-one">Page Five</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-six-one">Page Six</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-seven-one">Page Seven</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-eight-one">Page Eight</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-nine-one">Page Nine</ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.set-ten-one">Page Ten</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>
